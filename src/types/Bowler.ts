@@ -1,12 +1,12 @@
 export type Bowler = {
-  bowlerId: number;
-  bowlerLastName: string;
-  bowlerFirstName: string;
-  bowlerMiddleInit: string;
-  bowlerAddress: string;
-  bowlerCity: string;
-  bowlerState: string;
-  bowlerZip: string;
-  bowlerPhoneNumber: string;
-  teamId: number;
+  id: number;
+  firstName: string;
+  lastName: string;
+  middleInitial: string;
+  address: string;
+  city: string;
+  state: string;
+  zip: string;
+  phoneNumber: string;
+  teamName: string;
 };
